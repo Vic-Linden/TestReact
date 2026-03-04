@@ -5,14 +5,27 @@ import './App.css';
 
 
 function App() {
+
+const teachers = [
+
+  {id: 1, name: "Aldor", role: "Teacher"},
+  {id: 2, name: "Johan", role: "Teacher"},
+  {id: 3, name: "Pelle", role: "Teacher"},
+  {id: 4, name: "Nehel", role: "Teacher"}
+];
+
   return (
     <div>
       <Header />
+
       <main className='user-container'>
-        <UserCard name="aldor" role="teacher" />
-        <UserCard name="johan" role="teacher" />
-        <UserCard name="pelle" role="teacher" />
-        <UserCard name="Nehel" role="teacher" />
+        {teachers.map((teachers) =>(
+          <UserCard 
+          key={teachers.id}
+          name={teachers.name}
+          role={teachers.role}
+          />
+        ))}
 
       </main>
       
