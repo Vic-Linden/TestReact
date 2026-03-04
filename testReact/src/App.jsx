@@ -10,6 +10,7 @@ function App() {
         <UserCard name="aldor" role="teacher" />
         <UserCard name="johan" role="teacher" />
         <UserCard name="pelle" role="teacher" />
+        <UserCard name="Nehel" role="teacher" />
       </main>
     </div>
   );
