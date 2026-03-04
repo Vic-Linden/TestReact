@@ -1,6 +1,8 @@
 import Header from './components/Header/header';
 import UserCard from './components/UserCard/userCard';
+import Footer from './components/Footer/Footer';
 import './App.css';
+
 
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
         <UserCard name="johan" role="teacher" />
         <UserCard name="pelle" role="teacher" />
         <UserCard name="Nehel" role="teacher" />
+
       </main>
+      
+        <Footer />
     </div>
   );
 }
