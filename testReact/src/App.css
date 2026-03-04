@@ -1,0 +1,9 @@
+.user-container {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hotpink;
+    min-height: 100vh;
+}
